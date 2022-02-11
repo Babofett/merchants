@@ -19,6 +19,6 @@ COPY . /app
 
 RUN chmod -R ugo+rw /app/images
 
-COPY nginx.conf /etc/nginx
-RUN chmod +x ./start.sh
-CMD ["./start.sh"]
+# COPY nginx.conf /etc/nginx
+# RUN chmod +x ./start.sh
+CMD ["python", "app.py"]

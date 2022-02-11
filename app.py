@@ -119,3 +119,6 @@ def upload_image(image_name):
             file.save(file_path)
             print("File uploaded to", file_path)
             return f"{filename}"
+
+if __name__ == "__main__":
+    app.run()
