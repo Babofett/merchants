@@ -64,7 +64,7 @@ def get_availability(s_id, date_str):
 
 # Calculate availabilities
 def calculateAvailabilities(s_id, date):
-    res = requests.get(f"http://appointments-service:4000/appointments/service/{s_id}/{date}")
+    res = requests.get(f"https://appointments1.herokuapp.com/appointments/service/{s_id}/{date}")
     availability = [0 for i in range(24)]
     apps = json.loads(res.content)
     for app in apps:
@@ -79,7 +79,7 @@ def calculateAvailabilities(s_id, date):
 def calculateDailyAvailabilities(s_id):
     today = date.today().strftime("%Y-%m-%d")
 
-    res = requests.get(f"http://appointments-service:4000/appointments/service/{s_id}")
+    res = requests.get(f"https://appointments1.herokuapp.com/appointments/service/{s_id}")
     availability = {today: [0 for i in range(24)]}
     apps = json.loads(res.content)
     print(apps)
