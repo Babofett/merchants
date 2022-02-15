@@ -18,7 +18,7 @@ merchants = {
             "6": [11,24],
         },
         'headerSrc': 'web',
-        "headerImage": "https://media-cdn.tripadvisor.com/media/photo-s/19/76/f0/71/pizze-varie-di-gianni.jpg",
+        "headerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVkHxB_1-NMjF263IJiO4APkAToSiKHKWjug&usqp=CAU",
         "icon": "",
         'tags': [
             ("Vegan", 0xe532, 'Vegan restaurant in the style of a fastfood diner owned by animal rights activists.'),
@@ -31,7 +31,7 @@ merchants = {
                 'name': 'Buffet',
                 'id': 'abcde',
                 'imageSrc': 'web',
-                'image': "https://media-cdn.tripadvisor.com/media/photo-s/19/76/f8/46/pizza-prelibata.jpg",
+                'image': "https://images.lecker.de/herrlich-cremige-feel-good-pasta-f9187803,id=26ecd7a8,b=lecker,w=610,cg=c.jpg",
                 "timeSlots": [i for i in range(11,13+1)],
                 'description': 'Ein Platz an unserem Mittagsbuffet (11:00 - 13:00 Uhr)',
                 'maxGroupSize': 4,
@@ -51,7 +51,7 @@ merchants = {
                 "name": "Besondere Anlässe",
                 "id": "abcdeabcd",
                 'imageSrc': 'web',
-                'image': "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMisFPeSFz9Fl1r3UoV8zcXvS1Cxq1W2DaDQ&usqp=CAU",
+                'image': "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/%28Pasta%29_by_David_Adam_Kess_%28pic.2%29.jpg/377px-%28Pasta%29_by_David_Adam_Kess_%28pic.2%29.jpg",
                 "timeSlots": [9, 15],
                 "description": "Buchen Sie unser Restaurant für Ihren besonderen Anlass (Hochzeit, Konfirmation, etc.)",
                 'maxGroupSize': 50,
@@ -91,7 +91,7 @@ merchants = {
             {
                 'name': 'Mittagsangebot',
                 "id": "abcde321",
-                'imageScr': 'web',
+                'imageSrc': 'web',
                 'image': "https://media-cdn.tripadvisor.com/media/photo-s/19/76/f0/71/pizze-varie-di-gianni.jpg",
                 "timeSlots": [i for i in range(12,19+1)],
                 'description': '(11:00 - 13:30 Uhr) Pizzen + Salat für 9,99€!',
@@ -101,7 +101,7 @@ merchants = {
             {
                 "name": "Tischreservierung",
                 "id": "abcde765",
-                'imageScr': 'web',
+                'imageSrc': 'web',
                 'image': "https://media-cdn.tripadvisor.com/media/photo-s/19/76/f0/71/pizze-varie-di-gianni.jpg",
                 "timeSlots": [i for i in range(12,21+1)],
                 "description": "Ein Tisch für bis zu 6 Personen",
@@ -141,7 +141,7 @@ merchants = {
             {
                 'name': 'Routinekontrolle',
                 "id": "abcde11111",
-                'imageScr': 'web',
+                'imageSrc': 'web',
                 'image': "https://www.praxis-zahnmedizin.de/wp-content/uploads/2019/06/frau-versteht-zahnarztsprache-1024x678.jpg",
                 "timeSlots": [i for i in range(8,12+1)],
                 'description': 'Machen Sie jetzt einen Termin bei unserem erfahrenen Ärztteam aus!',
@@ -151,7 +151,7 @@ merchants = {
             {
                 "name": "Notfall",
                 "id": "abcde55555",
-                'imageScr': 'web',
+                'imageSrc': 'web',
                 'image': "https://praxis-6e0e.kxcdn.com/wp-content/uploads/2019/01/notdienst.jpg",
                 "timeSlots": [i for i in range(8,12+1)],
                 "description": "Für Notfälle! Bei dringenden Fällen und außerhalb der Öffnungszeiten 01238 1203981 oder 112 anrufen!",
@@ -189,7 +189,7 @@ merchants = {
             {
                 'name': 'Rasur',
                 "id": "abcde9999",
-                'imageScr': 'web',
+                'imageSrc': 'web',
                 'image': "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa4-Xrgd5dnCTfVG-v49nopkP3Av5CsTiJRQ&usqp=CAU",
                 "timeSlots": [i for i in range(9,13+1)],
                 'description': 'Schnelle Rasur für 12€',
@@ -199,7 +199,7 @@ merchants = {
             {
                 "name": "Styling",
                 "id": "abcde9988",
-                'imageScr': 'web',
+                'imageSrc': 'web',
                 'image': "https://bart.style/wp-content/uploads/2021/08/mann-mit-bart.png",
                 "timeSlots": [i for i in range(9,13+1)],
                 "description": "Einmal Rundumstyling",
@@ -239,7 +239,7 @@ merchants = {
             {
                 'name': 'Gruppen-Ticket',
                 "id": "abcde65656",
-                'imageScr': 'web',
+                'imageSrc': 'web',
                 'image': "https://www.hamburg.de/iason/images/6063338a2799585facb24862/s.768xb/gkgegk+pixabay.com.jpg",
                 "timeSlots": [i for i in range(11,23+1)],
                 'description': 'Ein Ticket für eine Stunde Bowling Bahn (bis zu 8 Personen)',
@@ -249,7 +249,7 @@ merchants = {
             {
                 "name": "Cocktail-Event",
                 "id": "abcde45454",
-                'imageScr': 'web',
+                'imageSrc': 'web',
                 'image': "https://tenpineatery.com/2017website/wp-content/uploads/2019/03/Cocktails-Alley-1.jpg",
                 "timeSlots": [i for i in range(20,23+1)],
                 "description": "Unser Abendliches Cocktail-Event mit DJ",
