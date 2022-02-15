@@ -25,7 +25,7 @@ merchants = {
             ("Access", 0xe03e, 'Das Restaurant ist komplett barrierefrei und nach einem Umbau stehen auch rollstuhlgerechte Toiletten zur Verfügung'),
         ],
         "description": "",
-        "rating": 4.3,
+        "rating": 4.82,
         "services": [
             {
                 'name': 'Buffet',
